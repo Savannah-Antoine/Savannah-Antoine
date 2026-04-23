@@ -3,29 +3,18 @@
    flex-direction:column;
     justify-content: center;
     gap:2rem;
-    
-    
-}
-body h1{
-    font-size: 3rem;
-
 }
 
 img{
-    width: 65%;
+    width: 100%;
     height:auto;
 }
 
 @media screen and (min-width: 768px)
 {
-    body h1{
-    font-size: 6.5rem;
-}
     section{
-    
     width: 30%;
 }
-
     .container{
           display:flex;
           flex-direction: row;
