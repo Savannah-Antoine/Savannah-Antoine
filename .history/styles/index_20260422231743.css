@@ -1,0 +1,30 @@
+.container{
+   display:flex;
+   flex-direction:column;
+    justify-content: center;
+    gap:2rem;
+}
+
+img{
+    width: 100%;
+    height:auto;
+}
+
+@media screen and (min-width: 768px)
+{
+    section{
+    width: 30%;
+}
+    .container{
+          display:flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+        
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    
+}

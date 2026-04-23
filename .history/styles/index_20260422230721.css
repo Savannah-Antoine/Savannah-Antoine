@@ -1,0 +1,27 @@
+.container{
+   
+    justify-content: center;
+    gap:2rem;
+}
+
+section{
+    align-items: flex-end;
+} 
+
+@media screen and (max-width: 768px)
+{
+    .container{
+          display:flex;
+      
+        
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    section{
+
+        margin:0 auto;
+        
+    }
+}
