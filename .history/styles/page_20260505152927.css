@@ -11,14 +11,9 @@ body {
 
 
 .homeButton{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: left;
-
-} 
-    
+    text-align:left;
+    color:pink;
+}
 
 .navigation {
   list-style-type: none;
