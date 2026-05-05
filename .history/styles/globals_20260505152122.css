@@ -19,16 +19,4 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: right;
-} 
-li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #be6c6c;
 }
