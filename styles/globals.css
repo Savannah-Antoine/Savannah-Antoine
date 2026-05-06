@@ -37,3 +37,8 @@ li a {
 ul li a:hover {
   background-color: #be6c6c;
 }
+
+h1{
+
+  font-size: 4rem;
+}
