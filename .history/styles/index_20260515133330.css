@@ -1,0 +1,75 @@
+.container{
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+    padding: 1.2rem;
+    
+}
+#AboutMe{
+    display: flex;
+    flex-direction: row;      /* Side-by-side */
+    align-items: center;       /* Vertically centers image and text */
+    justify-content: center;   /* Horizontally centers the whole group */
+    gap: 40px;                 /* Space between image and text */
+    padding: 50px 10%;         /* Breathing room on the sides */
+    text-align: left;
+}
+ 
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    text-align: right;
+}
+    
+
+body h1{
+    font-size: 2.5rem;
+
+}
+
+img{
+    width: 100%; 
+    max-width: 400px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px)
+{
+    
+   body h1 {
+        font-size: 4rem; 
+    }
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .project-card {
+        width: 30%; 
+        min-width: 250px;
+        text-align: center;
+    }
+
+    .aboutMe{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+    .navigation{
+        display:flex;
+    }
+    
+}
+    
+
+@media screen and (min-width: 1000px)
+{
+    .container {
+        margin: 0 auto;
+    }
+}

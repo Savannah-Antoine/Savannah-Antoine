@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+  background-image: url(/assets/images/background-pic.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+.homeButton{
+  order: -1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+
+} 
+    
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 1rem 2rem;      
+        
+    border: 2px solid pink;
+    cursor: pointer;
+    
+    
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;                   
+    margin: 0;
+    padding: 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid pink;
+    cursor: pointer;
+    transition: all 0.3s ease; /* This makes the transition smooth */
+    border-radius: 5px;
+    gap: 1rem;
+}
+button:hover {
+    background-color: pink;
+    color: rgb(31, 1, 31);
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3); 
+}
+
+.infoButtons {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem;             
+    margin-top: 20px; 
+    min-width: 100px;
+    padding: 10px 15px;       
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+ background-color: pink;
+  color: rgb(31, 1, 31);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3)
+}
+
+h1{
+
+  font-size: 4rem;
+}

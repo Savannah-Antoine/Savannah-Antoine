@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+    padding: 20px;
+    
+}
+
+    
+    
+
+body h1{
+    font-size: 2.5rem;
+
+}
+
+img{
+   width: 100%; 
+    max-width: 400px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px)
+{
+    
+   body h1 {
+        font-size: 4rem; 
+    }
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .project-card {
+        width: 30%; 
+        min-width: 250px;
+        text-align: center;
+    }
+
+    .aboutMe{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+}
+    
+
+
+
+@media screen and (min-width: 1000px)
+{
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

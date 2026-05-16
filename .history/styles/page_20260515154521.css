@@ -1,0 +1,75 @@
+
+ 
+.project-details{
+    text-align: left;
+    justify-content: center;
+}
+    
+
+body h1{
+    font-size: 2.5rem;
+
+}
+
+
+img {
+    width: 100%; 
+    max-width: 500px; /* Increased slightly for detail */
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+    padding: 2rem 5%;
+}
+
+/* Make sure the headings look good on mobile first */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #b388ff; /* Optional: Matching your purple accent */
+    margin-top: 1.5rem;
+}
+
+/* Ensure images don't overflow */
+img {
+    width: 100%; 
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* DESKTOP FIX (Side-by-side starts here) */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .container {
+        flex-direction: row;      /* Puts visuals and details next to each other */
+        align-items: flex-start;  /* Aligns the top of the image with the top of the text */
+        justify-content: center;
+        gap: 4rem;                /* Adds professional breathing room */
+        max-width: 1200px;
+        margin: 0 auto;           /* Centers the whole container on big screens */
+    }
+
+    .project-visuals {
+        flex: 1;                  /* Takes up half the space */
+        position: sticky;         /* Optional: keeps image visible while scrolling text */
+        top: 20px;
+    }
+
+    .project-details {
+        flex: 1;                  /* Takes up the other half */
+        text-align: left;         /* Makes technical lists easier to read */
+    }
+}
