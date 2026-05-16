@@ -1,7 +1,6 @@
-@font-face{
+@fontface{
 
-    font-family:"ice";
-    src: url(../assets/fonts/Iceberg-Regular.ttf)
+    
 }
 
 body {
@@ -12,7 +11,6 @@ body {
   color: white;
   font-size: 1rem;
   text-align: center;
-  font-family: "ice", serif, 'Times New Roman';
 }
 
 .homeButton{
@@ -65,7 +63,6 @@ button {
     transition: all 0.3s ease;
     border-radius: 0.2rem;
     gap: 1rem;
-    font-family: "ice", serif, 'Times New Roman';
 }
 button:hover {
     background-color: pink;
@@ -104,9 +101,7 @@ h1{
 @media screen and (min-width: 768px)
 {
    
-    body{
-        font-size: 1.2rem;
-    }
+
    
 
     #AboutMe img {

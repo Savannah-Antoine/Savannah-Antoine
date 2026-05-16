@@ -10,9 +10,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
-  font-family: "ice", serif, 'Times New Roman';
+  font-family: "ice", serif;
 }
 
 .homeButton{
@@ -65,7 +65,6 @@ button {
     transition: all 0.3s ease;
     border-radius: 0.2rem;
     gap: 1rem;
-    font-family: "ice", serif, 'Times New Roman';
 }
 button:hover {
     background-color: pink;

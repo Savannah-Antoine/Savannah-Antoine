@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+    padding: 1.2rem;
+    
+}
+#AboutMe{
+  text-align: center;
+  justify-content: center;
+ 
+    
+}
+.aboutMe{
+    display: flex;
+    flex-direction: column;      /* Side-by-side */
+    align-items: center;
+    text-align: left;       /* Vertically centers image and text */
+    gap: 2rem;
+}
+ 
+
+
+    
+
+body h1{
+    font-size: 2.5rem;
+
+}
+
+img{
+    width: 100%; 
+    max-width: 400px;
+    height: auto;
+}
+
