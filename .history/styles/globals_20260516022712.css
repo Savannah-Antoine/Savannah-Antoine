@@ -117,7 +117,6 @@ h1{
         font-size: 4rem; 
     }
     .container {
-        
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -125,6 +124,7 @@ h1{
     }
     .project-card {
         width: 30%; 
+        width:300px;
         min-width: 250px;
         text-align: center;
     }
